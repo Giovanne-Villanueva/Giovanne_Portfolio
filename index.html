@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style/reset.css">
     <link rel="stylesheet" href="./assets/style/style.css">
     <title>Giovanne Portfolio</title>
 </head>
@@ -11,26 +12,35 @@
     <header class="header">
         <h1>Giovanne Villanueva-Hernandez</h1>
         <nav>
+            <ul>
+                <li>
                     <a href="#about-me">About Me</a> 
-                 
+                </li>
+                <li> 
                     <a href="#projects">Projects</a> 
-
-                    <a href="#contact-info">Contact Information</a> 
+                </li>
+                <li>
+                    <a href="#contact-info">Contact Information</a>
+                </li>
+            </ul> 
         </nav>
     </header>    
     
     <section class="about">
+        <img src="./assets/images/Me.jpg" alt="An image of Giovanne Villanueva-Hernandez"/>
         <article id="about-me" class="me">
-            <img src="./assets/me.jpg" alt="An image of Giovanne Villanueva-Hernandez"/>
             <h2>About Me</h2>
+            <p id="indent">
+                Hello everyone my name is Giovanne Villanueva-Hernandez. I am a Computer Engineer graduate from Sacramento State University. My coding experiance includes working with these languages java, python, and c. I have worked on some lower level coding which is more going more into computer architecture. What the computer really sees versus what we put in our higher level programing languages. In this portfolio I want to show you more of my skills in web development.
+            </p> 
             <p>
-                Hello everyone my name is Giovanne Villanueva-Hernandez. I am a Computer Engineer graduate from Sacramento State University. My coding experiance includes working with these languages java, python, and c. I have worked on some lower level coding which is more going more into computer architecture. What the computer really sees versus what we put in our higher level programing languages. In this portfolio I want to show you more of my skills in web development. 
-                
                 Fun facts about me is that I enjoy playing turn based video games, hiking, and my favorite food is hamburgers. One of my favorite games include final fantasy X. The story made me feel something throughout the whole game. The challenges in the game made me put in the time before actuall being able to beat the game. While playing the game the character Tidus had to be in party all the time. Hiking I guess its more like walking enjoying my surroundings. I have a fun story about walking enjoying my surroundings. I went to Pinncals National park to do a five mile hike. Well I was enjoying my surrounding so much that I traveled off the main trail going towards the mountain top. Once I was on the mountanin top I was lost with nothing but a natinal park look out tower. The view up top was pretty. As for food I dont like soups in general. Food that is more solid I enjoy that more. The hamburger has the right texture and taste I am looking for in food.
             </p>
         </article>
     </section>
-    
+
+    <hr class="divider">
+
     <section id="projects" class="projects">
         <h2>Projects</h2>
         <section id="up-size" class="proj-list">
@@ -43,13 +53,16 @@
         </section>
     </section>
 
-    <section id="contact-info" class="contact">
+    <hr class="divider">
+
+    <footer id="contact-info" class="contact">
         <h2>Contact Information</h2>
         <ul>
             <li> <h3>Email:</h3> <span>titans4life@gmail.com </span></li>
             <li> <h3>Linkedin:</h3> <span>Link </span></li>
             <li> <h3>Number:</h3> <span>530-903-**** </span></li>
         </ul>
-    </section>
+    </footer>
+
 </body>
 </html>
