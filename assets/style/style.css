@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    font-family: serif, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #A4B1AF;
+    text-decoration: underline;
+}
+
+body{
+    background-color: #D0CDC8;
+}
+
+img {
+    width: 25%;
+    height: 25%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5%;
+    background: #4E4B46;
+    color: #A4B1AF;
+}
+
+.header h1 {
+    font-size: 200%;
+    padding-top: 0.5%;
+}
+
+.header nav {
+    display: flex;
+    justify-content: right;
+    font-size: 150%;
+    width: 35%;
+}
+
+.header nav a {
+    padding-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
